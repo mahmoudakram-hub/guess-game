@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <title></title>
+</head>
+
+<body>
+
+
+
+    <h1></h1>
+    <form class="restart">
+        <button>Restart</button>
+    </form>
+    <div class="guess-game">
+        <dialog class="dialog">
+            <h1>Golden Challange</h1>
+            <div class="words">
+            </div>
+            <p>
+                The challange is to Choose three words and Gusse one Of Them in one try
+            </p>
+            <div class="actions">
+                <button class="accept-challange">challange</button>
+                <form method="dialog">
+                    <button class="close">close</button>
+                </form>
+            </div>
+
+        </dialog>
+        <div class="game-area">
+            <div class="inputs"></div>
+            <div class="control">
+                <button class="check">Check word</button>
+                <button class="hint"> <span></span> hints</button>
+            </div>
+            <div class="message"></div>
+        </div>
+        <div class="key-colors">
+            <div class="guid">
+                <h2>Key Color</h2>
+                <div class="color-box">
+                    <div class="color in-place"></div>
+                    <p class="color-text">letter is right and in place</p>
+                </div>
+                <div class="color-box">
+                    <div class="color not-in-place"></div>
+                    <p class="color-text">letter is right not in place</p>
+                </div>
+                <div class="color-box">
+                    <div class="color wrong"></div>
+                    <p class="color-text">letter is wrong</p>
+                </div>
+            </div>
+            <div class="options">
+                <button class="golden">
+                    Golden Challange
+                </button>
+                <div class="tries-number">
+                    <button class="plus">Plus</button>
+                    <span class="tries"></span>
+                    <button class="minus">Minus</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer></footer>
+    <script src="game.js"></script>
+</body>
+
+</html>
